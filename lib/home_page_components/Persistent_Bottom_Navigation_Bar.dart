@@ -1,32 +1,11 @@
-// import 'dart:js';
-
 import 'package:flutter/material.dart';
 // import 'package:flutter_application_1/home_page_components/carousel.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'home_screen.dart';
-// import 'carousel.dart';
-// import "calender.dart";
-// import '../pages/sign_out.dart';
-// import "../screens/login.dart";
-// import "../screens/wrapper.dart";
-// import "../main.dart";
-// import 'package:flutter_application_1/services/auth.dart';
 import 'package:flutter_application_1/Camera/camera_screen.dart';
 import 'package:flutter_application_1/Profile_Page/profile_main.dart';
-
 import "package:flutter_application_1/search_page/search.dart";
-// import 'package:flutter/material.dart';
-// import 'home_page_components/intro_screen.dart';
-// import 'home_page_components/home_screen.dart';
-// import 'package:firebase_core/firebase_core.dart';
-// import 'package:provider/provider.dart';
-// import "package:flutter_application_1/models/firebaseuser.dart";
-// import '../services/auth.dart';
-// import 'models/firebaseuser.dart';
-// import '../firebase_options.dart';
-// import '../screens/wrapper.dart';
-// import 'package:firebase_auth/firebase_auth.dart';
 import "settings.dart";
 
 class navb extends StatelessWidget {
@@ -146,133 +125,7 @@ class NotificationsPage extends StatelessWidget {
   }
 }
 
-// class SettingsScreen extends StatelessWidget {
-
-//   final user = FirebaseAuth.instance.currentUser;
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       // appBar: AppBar(
-//       //   centerTitle: true,
-//       //   backgroundColor: Colors.green,
-//       //   title: Text("GEEKS FOR GEEKS"),
-//       // ),
-
-//       // Floating Action Button using for signout
-//       floatingActionButton: FloatingActionButton(
-//         onPressed: () {
-//           FirebaseAuth.instance.signOut();
-//         },
-          
-//         child: Icon(Icons.logout_rounded),
-//         backgroundColor: Colors.green,
-//       ),
-//     );
-
-// }
-// }
 
 
-// class SettingsScreen extends StatelessWidget {
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       // appBar: AppBar(
-//       //   centerTitle: true,
-//       //   backgroundColor: Colors.green,
-//       //   title: Text("GEEKS FOR GEEKS"),
-//       // ),
-
-//       // Floating Action Button using for signout
-//       floatingActionButton: FloatingActionButton(
-//         onPressed: () async {
-//           await FirebaseAuth.instance.signOut();
-//           Navigator.of(context).pushReplacement(
-//             MaterialPageRoute(builder: (context) => Login()),
-//           );
-//         },
-//         child: Icon(Icons.logout_rounded),
-//         backgroundColor: Colors.green,
-//       ),
-//     );
-//   }
-// }
-
-
-//   // final FirebaseAuth auth = FirebaseAuth.instance;
-//   final AuthService _auth = new AuthService();
-
-// // Future<void> _signOut(BuildContext context) async {
-// //     await auth.signOut();
-// //     await Future.delayed(Duration.zero);
-// //     Navigator.pushNamedAndRemoveUntil(
-// //         context, '/login', (Route<dynamic> route) => false);
-// // }
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(
-//         centerTitle: true,
-//         backgroundColor: Colors.green,
-//         title: Text("GEEKS FOR GEEKS"),
-//       ),
-
-//       // Floating Action Button using for signout
-//       floatingActionButton: FloatingActionButton(
-//         onPressed: () async{
-//           // _signOut(context);
-//            await _auth.signOut();
-//         },
-//         child: Icon(Icons.logout_rounded),
-//         backgroundColor: Colors.green,
-//       ),
-
-//       body: Center(
-//         child: Text("Profile page"),
-//       ),
-//     );
-//   }
-// }
-
-
-
-//   // final AuthService _auth = new AuthService();
-//   @override
-//   Widget build(BuildContext context) {
-// // return MaterialApp(
-// //       title: 'My App',
-// //       initialRoute: '/wrapper',
-// //       routes: {
-// //         // '/login': (context) => Login(),
-// //         // '/home': (context) => Home(),
-// //         '/wrapper': (context) => Login(),
-// //       },
-// //     );
-
-
-// // return MaterialApp(
-// //       title: 'My App',
-// //       initialRoute: '/',
-// //       routes: {
-// //         '/': (context) => Login(),
-// //         '/profile': (context) => SignOutButton(),
-// //       },
-// //     );
-
-//     return Scaffold(
-//       appBar: AppBar(
-//         title: const Text('Profile'),
-//       ),
-//       body: Center(
-//         child: SignOutButton(),
-//       ),
-//       );
-
-//   }
-// }
-
-
-// abc@gmail.com
-// abc12345
+// useremailid: abc@gmail.com
+// password: abc12345
